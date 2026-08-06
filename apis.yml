@@ -1,7 +1,16 @@
 aid: varda-space-industries
 name: Varda Space Industries
-description: 'Varda Space Industries is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Varda Space Industries is an American space manufacturing company founded
+  in 2021 and headquartered in El Segundo, California. Varda designs, builds and flies
+  the W-Series, a free-flying orbital production satellite paired with a hypersonic
+  reentry capsule, so that materials can be processed in microgravity and returned
+  to Earth. The company sells three lines of service: biopharmaceutical processing
+  (small-molecule crystallization that gravity disrupts on Earth), a government hypersonic
+  flight testbed that uses the capsule''s Mach 25 reentry as a test article carrier,
+  and general microgravity research flights. Varda is a hardware and manufacturing-services
+  business rather than a software vendor: as of this profile it publishes no public
+  API, developer portal, SDK or machine-readable specification, and customer-facing
+  technical interfaces are documented in a downloadable Payload User Guide PDF.'
 url: https://raw.githubusercontent.com/api-evangelist/varda-space-industries/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -10,8 +19,18 @@ x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-05'
 modified: '2026-08-05'
+image: https://cdn.prod.website-files.com/69737782e8f70a763e5f85d4/6982fee85f22aa4de2a260b2_6b69c889f13087fc46c07f7db80559ce_social_facebook.jpg
 tags:
 - Company
+- Space
+- Aerospace
+- Manufacturing
+- Pharmaceuticals
+- Biotechnology
+- Satellites
+- Hypersonics
+- Microgravity
+- Reentry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +39,56 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/varda-space-industries_stock/
+  url: https://www.varda.com/
+- type: About
+  url: https://www.varda.com/company
+- type: Product
+  name: W-Series orbital production and reentry platform
+  url: https://www.varda.com/platform
+- type: UserGuide
+  name: Payload User Guide (PDF)
+  url: https://www.varda.com/payload-user-guide
+- type: Newsroom
+  url: https://www.varda.com/media
+- type: Careers
+  url: https://www.varda.com/careers
+- type: PrivacyPolicy
+  url: https://www.varda.com/privacy
+- type: Legal
+  name: Content attributions
+  url: https://www.varda.com/legal
+- type: Contact
+  url: https://www.varda.com/suppliers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/varda-space-industries
+- type: Twitter
+  url: https://x.com/vardaspace
+- type: DomainSecurity
+  url: security/varda-space-industries-domain-security.yml
+- type: LLMsTxt
+  url: llms/varda-space-industries-llms.txt
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Varda sells orbital manufacturing flights and reentry capsules as hardware
+    services — its only customer-facing technical document is a Payload User Guide
+    PDF, and api/developer/docs.varda.com do not resolve in DNS.
+  evidence:
+  - url: https://www.varda.com/openapi.json
+    status: 404
+  - url: https://www.varda.com/llms.txt
+    status: 404
+  - url: https://www.varda.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.varda.com/.well-known/security.txt
+    status: 404
+  - url: https://www.varda.com/developers
+    status: 404
+  - url: https://www.varda.com/payload-user-guide
+    status: 200
+  checked: '2026-08-05'

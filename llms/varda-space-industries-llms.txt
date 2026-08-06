@@ -1,0 +1,50 @@
+# Varda Space Industries
+
+> Varda Space Industries designs, builds and flies the W-Series — a free-flying orbital
+> production satellite paired with a hypersonic reentry capsule — so that materials can be
+> processed in microgravity and returned to Earth. Varda sells biopharmaceutical processing,
+> a government hypersonic flight testbed, and microgravity research flights. It is a hardware
+> and manufacturing-services business, not a software vendor.
+
+<!--
+generated: '2026-08-05'
+method: generated
+source: apis.yml + probes of https://www.varda.com/ (this file is an API Evangelist profile
+  summary, NOT a document published by Varda Space Industries; https://www.varda.com/llms.txt
+  returned 404 on 2026-08-05)
+-->
+
+## API surface
+
+Varda Space Industries publishes **no public API**. As of 2026-08-05 there is no developer
+portal, no OpenAPI/AsyncAPI/GraphQL specification, no SDK, no webhook surface and no MCP
+server. `api.varda.com`, `developer.varda.com` and `docs.varda.com` do not resolve in DNS;
+`/openapi.json`, `/llms.txt`, `/.well-known/security.txt`, `/.well-known/agent-card.json`
+and `/.well-known/agent.json` all return 404 on `www.varda.com`. Customer-facing technical
+interfaces are documented in a downloadable Payload User Guide PDF, not as a machine-readable
+contract.
+
+## Company
+
+- [Varda Space Industries](https://www.varda.com/): Company homepage.
+- [Our story](https://www.varda.com/company): Company background, founded 2021, El Segundo, California.
+- [W-Series platform](https://www.varda.com/platform): Orbital production satellite and reentry capsule.
+- [Media center](https://www.varda.com/media): Press releases and news coverage.
+- [Careers](https://www.varda.com/careers): Open roles.
+- [Suppliers](https://www.varda.com/suppliers): Supplier information and contact.
+
+## Services
+
+- [Biopharma](https://www.varda.com/biopharma): Microgravity pharmaceutical processing and small-molecule crystallization.
+- [Government](https://www.varda.com/government): Hypersonic flight testbed using the Mach 25 reentry capsule.
+- [Microgravity research](https://www.varda.com/microgravity): General microgravity experimentation flights.
+- [Payload User Guide](https://www.varda.com/payload-user-guide): Payload accommodation and interface guide (PDF).
+
+## Legal
+
+- [Privacy policy](https://www.varda.com/privacy)
+- [Content attributions](https://www.varda.com/legal)
+
+## API Evangelist profile
+
+- [Domain security probe](security/varda-space-industries-domain-security.yml): TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture for varda.com.
