@@ -115,3 +115,5 @@ x-coverage:
   - url: https://www.varda.com/payload-user-guide
     status: 200
   checked: '2026-08-05'
+x-parent: varda
+x-relationship: product
